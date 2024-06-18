@@ -151,7 +151,7 @@ span {
 /* ****SKILL**** */
 .skill {
   /* height: 35vw; */
-  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(71, 71, 100));
+  background: linear-gradient(45deg, rgb(71, 71, 100), rgb(0, 0, 0));
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -220,3 +220,20 @@ span {
 }
 
 /* ***** son project ***** */
+
+.project-sec {
+  /* height: 25vw; */
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(71, 71, 100));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.proimg {
+  width: 300px;
+  height: 200px;
+  border-radius: 3rem;
+}
